@@ -9,9 +9,11 @@ $taskName = $_POST["task"];
 
 echo $taskName;
 
-$sql = "INSERT INTO todoTask(taskName) VALUES('".$task."')"
+$sql = "INSERT INTO todoTasks(taskName) VALUES('".$taskName."')";
 
 $rec = $conn->query( $sql );
+ echo $sql;
+ echo $rec;
 
 header( "Location:index.php");
 

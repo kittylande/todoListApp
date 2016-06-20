@@ -197,6 +197,6 @@ function validate( inputType, userInput ){
 		return temp;
 	}
 
-});
+
 
 	
